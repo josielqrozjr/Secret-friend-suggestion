@@ -1,3 +1,26 @@
+function fecharSugestoes() {
+  document.getElementById("sugest-presente").classList.add("sugestoes");
+  document.getElementById("sugest-presente").classList.remove("sugestoes-aberto");
+}
+
+function exibirSugestoes() {
+  document.getElementById("sugest-presente").classList.remove("sugestoes");
+  document.getElementById("sugest-presente").classList.add("sugestoes-aberto");
+}
+
+function inicializarCarrinho() {
+  const botaoExibirSugestoes = document.getElementById("sugest-abrir");
+  const botaoFecharSugestoes = document.getElementById("sugest-fechar");
+
+  botaoExibirSugestoes.addEventListener("click", exibirSugestoes);
+  botaoFecharSugestoes.addEventListener("click", fecharSugestoes);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  inicializarCarrinho();
+});
+
+
 const sugestoes = [
     {
       id: 1,
