@@ -1,8 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    margin: 0;
-    padding: 0;
 	font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial,sans-serif;
-    background-color: whitesmoke;
+    background-image: url("../assets/background/grid-wallpaper.svg");
+    background-size: cover;
 }
 
 .nav-bar{
@@ -10,34 +14,52 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 1% 5%;
-    padding: 1% 0%;
-    background: rgb(2,0,36);
-    background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(16,16,126,1) 28%, rgba(0,212,255,1) 100%);
-    border-radius: 100px;
-    box-shadow: inset 0 5px 10px 0 rgba(0, 0, 0, 0.291);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: whitesmoke;
 }
 
-.nav-bar label{
-    color: whitesmoke;
-    font-size: 20px;
+.nav-titulo{
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 100px;
+    background-image: url("../assets/background/grid-wallpaper.svg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.nav-titulo label{
+    width: 100%;
+    padding: 10px 0px;
+    color:  whitesmoke;
+    font-size: 1.2em;
     text-align: center;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.112);
+    backdrop-filter: blur(2px);
+    box-shadow: inset 0 5px 20px 0 rgba(0, 0, 0, 0.365);
+    border: 1px solid whitesmoke;
+    text-shadow: rgba(0, 0, 0, 0.454) 0.1em 0.1em 0.2em;
     text-transform: uppercase;
 }
 
-.desc-site{
+.nav-desc{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: larger;
-    font-size: 16px;
-    margin-bottom: 5%;
+    font-size: 1.1em;
+    color: #00405e;
+    font-weight: 600;
 }
 
 .container-sugestoes{
     width: 90%;
-    margin: 0 auto; /* Centraliza o conteúdo */
+    margin: 40px auto; /* Centraliza o conteúdo */
     background: whitesmoke;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.176);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 5px 30px 0 #00000047;    
     border-radius: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -54,8 +76,8 @@ body{
     flex-direction: column;
     margin: 2%;
     background: rgb(2,0,36);
-    background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(16,16,126,1) 28%, rgba(0,212,255,1) 100%);
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.176);
+    background: linear-gradient(167deg, #00101C 0%, #297EA6 28%, #00d4ff 100%);
+    box-shadow: 0 5px 15px 0 #0000002d;
     color: black;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -93,13 +115,13 @@ body{
 
 .card-sugestoes-titulo{
     width: 100%;
-    height: 50%;
+    height: 30%;
     padding-top: 8px;
     font-weight: 600;
     font-size: 1.2em;
 }
 .card-sugestoes-info{
     width: 100%;
-    height: 50%;
+    height: 70%;
     font-size: 1em;
 }
