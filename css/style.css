@@ -170,3 +170,25 @@ body{
 .sugestoes-aberto {
     display: none;
 }
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #00405e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+footer i{
+    padding: 4px 7px;
+    background-color: whitesmoke;
+    color: #00405e;
+    border-radius: 5px;
+}
+
+footer div{
+    margin-left: 10px;
+}
