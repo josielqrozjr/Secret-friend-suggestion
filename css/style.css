@@ -176,7 +176,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
     background-color: #00405e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8em;
@@ -191,5 +190,9 @@ footer i{
 
 footer div{
     margin-left: 10px;
+}
+
+a{
     text-decoration: none;
+    color: whitesmoke;
 }
