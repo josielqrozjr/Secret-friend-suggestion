@@ -19,7 +19,8 @@ body{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: whitesmoke;
-    margin-bottom: 70px;
+    position: fixed;
+    top: 0px;
 }
 
 .nav-titulo{
@@ -52,7 +53,6 @@ body{
     margin-top: 15px;
     margin-bottom: 25px;
     text-align: center;
-    font-size: larger;
     font-size: 1.1em;
     color: #00405e;
     font-weight: 600;
@@ -78,9 +78,15 @@ body{
     transition-duration: 0.3s;
 }
 
+.section-sugest{
+    display: flex;
+    justify-content: center;
+}
+
 .container-sugestoes{
     width: 90%;
-    margin: 40px auto; /* Centraliza o conteúdo */
+    margin-top: 250px;
+    margin-bottom: 20px;
     background: whitesmoke;
     box-shadow: 0 5px 30px 0 #00000047;    
     border-radius: 10px;
