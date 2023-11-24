@@ -54,6 +54,24 @@ const sugestoes = [
     },
     {
       id: 6,
+      nome: "Código Limpo",
+      info: "Livro - Código Limpo: Habilidades Práticas do Agile Software <br>Autor: Robert C. Martin.",
+      imagem: "livro-codigo-limpo.webp"
+    },
+    {
+      id: 7,
+      nome: "Arquitetura Limpa",
+      info: "Livro - Arquitetura Limpa: <br>O Guia do Artesão para Estrutura e Design de Software <br>Autor: Robert C. Martin.",
+      imagem: "livro-arq-limpa.webp"
+    },
+    {
+      id: 8,
+      nome: "Entendendo Algoritmos",
+      info: "Livro - Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros <br>Curiosos, Aditya Y. Bhargava.",
+      imagem: "livro-algoritmos.jpeg"
+    },
+    {
+      id: 9,
       nome: "Pix",
       info: "Se achou difícil ou qualquer outro motivo, pode passar o pix.<br><b> E o pix, nada ainda? </b>",
       imagem: "pix.webp"
